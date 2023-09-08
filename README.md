@@ -2,7 +2,7 @@
 Save The Girls Movement
 
 # Preview
-[Save The Girls Movement
+[Save The Girls Website Link
 ](https://fortunembopo.co.za/)
 
 # Screenshot Designs

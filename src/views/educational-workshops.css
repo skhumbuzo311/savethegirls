@@ -1,0 +1,144 @@
+.educational-workshops-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.educational-workshops-banner {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("/assets/educational-1500w.jpg");
+  background-position: center;
+}
+.educational-workshops-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.educational-workshops-text {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.educational-workshops-text1 {
+  color: rgb(255, 255, 255);
+  max-width: 60%;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.educational-workshops-banner1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.educational-workshops-text2 {
+  width: 60%;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.educational-workshops-text3 {
+  width: 60%;
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.educational-workshops-features {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  flex-direction: column;
+}
+.educational-workshops-container2 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr;
+}
+@media(max-width: 991px) {
+  .educational-workshops-text1 {
+    width: 100%;
+  }
+  .educational-workshops-text2 {
+    font-size: 2.5rem;
+  }
+  .educational-workshops-text3 {
+    width: 80%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 767px) {
+  .educational-workshops-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .educational-workshops-text1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .educational-workshops-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .educational-workshops-text2 {
+    width: 80%;
+  }
+  .educational-workshops-text3 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .educational-workshops-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .educational-workshops-container2 {
+    grid-template-columns: 1fr;
+  }
+}
+@media(max-width: 479px) {
+  .educational-workshops-banner {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .educational-workshops-text1 {
+    max-width: initial;
+  }
+  .educational-workshops-banner1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .educational-workshops-text2 {
+    width: 95%;
+    font-size: 2rem;
+  }
+  .educational-workshops-text3 {
+    width: 95%;
+  }
+  .educational-workshops-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
